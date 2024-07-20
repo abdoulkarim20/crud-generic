@@ -14,6 +14,7 @@
     <name>gestionproduitreact</name>
     <description>gestionproduitreact</description>
     <properties>
+        <maven.compiler.release>17</maven.compiler.release>
         <java.version>17.0.8</java.version>
         <jwt.version>0.9.0</jwt.version>
         <apache-commons.version>3.10</apache-commons.version>
@@ -86,12 +87,12 @@
                     </excludes>
                 </configuration>
             </plugin>
-            <!--<plugin>
+            <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
-                    <source>16</source>
-                    <target>16</target>
+                    <source>17</source>
+                    <target>17</target>
                     <annotationProcessorPaths>
                         <path>
                             <groupId>org.mapstruct</groupId>
@@ -105,7 +106,7 @@
                         </path>
                     </annotationProcessorPaths>
                 </configuration>
-            </plugin>-->
+            </plugin>
         </plugins>
     </build>
 

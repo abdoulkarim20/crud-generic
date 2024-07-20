@@ -6,6 +6,5 @@ import cours.apprentissage.gestionproduitreact.utils.EntityMapper;
 import org.mapstruct.Mapper;
 
 @Mapper(componentModel = "spring")
-
 public interface CategorieMapper extends EntityMapper<CategorieDTO, Categorie> {
 }
